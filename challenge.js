@@ -76,6 +76,14 @@ let secondNumber = window.prompt("add your second number")
 
 // var pointNum2 = parseFloat(secondNumber)
 
+/**
+ * Returns the outcome.
+ *
+ * @param {number} x The first number
+ * @param {number} y The second number
+ * @param {string} operator + - * /
+ * @return {number} outcome of the math operation
+ */
 function doMath(x,y,operator) {
     
     if (isNaN(x)){
